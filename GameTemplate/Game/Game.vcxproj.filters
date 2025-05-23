@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="BoxManager.cpp" />
+    <ClCompile Include="Tube.cpp" />
+    <ClCompile Include="TubeManager.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="GroundWhite.cpp" />
+    <ClCompile Include="GroundWhiteManager.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Apple.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="BoxManager.h" />
+    <ClInclude Include="Tube.h" />
+    <ClInclude Include="TubeManager.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="GroundWhite.h" />
+    <ClInclude Include="GroundWhiteManager.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Apple.h" />
+  </ItemGroup>
+</Project>
